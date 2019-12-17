@@ -1,0 +1,44 @@
+.footer_{
+    display: flex;
+    justify-content: space-around;
+    padding-top:10%;
+}
+.footer_img{
+    display: flex;
+}
+.footer_img img{
+    width: 60px;
+    height: 46px;
+    padding:12px 10px 0 0;
+}
+.footer_ p{
+color: #868773;
+font-size: 14px;
+}
+.copy_text{
+    display: block;
+    text-align: center;
+    padding:2% 0 1% 0;
+    color: #868773;
+    font-size: 8px;
+    letter-spacing:6px;
+  }
+
+  /*rwd*/
+  @media screen and (max-width:414px) {
+    .footer_{
+        padding-top:21%;
+    }
+    .copy_text{
+        padding:5% 0 1% 0;
+      }
+      .footer_ .footer_img p{
+          font-size: 12px;
+          padding:0% 0% 0% 5%;
+      }
+      .footer_img img{
+        width: 67px;
+        height: 46px;
+        padding:5% 0px 0 5%;
+    }
+}

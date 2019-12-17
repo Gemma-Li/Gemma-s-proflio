@@ -1,0 +1,47 @@
+
+#dialog {
+    width: 320px;
+    height: 200px;
+    position: absolute;
+    left: calc(50% - 160px);
+    top: calc(100vh/5);
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
+    z-index : -1;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+#btnClose:hover {
+    cursor: pointer;
+    color: #9da571;
+}
+
+#btn{
+    cursor: pointer;
+    border-width: 3px;
+	color: #8e7a6c;
+	border: 1px solid #8e7a6c;
+	background-color: #fffeee;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: 'MYuenHK-Medium';
+    width: 30%;
+    letter-spacing: 8px;
+}
+#btn:hover{
+    background-color:  #9da571;
+    color: #fffeee;
+}
+
+#mask{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(211, 192, 172,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    opacity: 0;
+    transition: all 1s ease;
+}

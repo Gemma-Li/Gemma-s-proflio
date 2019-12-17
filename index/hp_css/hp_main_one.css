@@ -1,0 +1,81 @@
+.section_three {
+    width: 100%;
+    font-size: 0;
+    margin-top: 15%;
+}
+.threetop{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width:100%;
+    padding:5% 0% 0% 0%;
+    margin-bottom: 5%;
+}
+
+.menu_pic{
+      box-shadow:20px 24px 0px rgb(142, 122, 108,0.8);
+      margin-right:-30%;
+      height: 100%;
+}
+.threebottom{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width:100%;
+    padding:0% 0 8% 0;
+}
+.shop_pic{
+    margin-left:-30%;
+    box-shadow:-20px 24px 0px rgb(142, 122, 108,0.8);
+    height: 100%;
+}
+.section_three h3{
+    color: #8e7a6c;
+    font-size: 40px;
+    letter-spacing: 15px;
+    font-family: 'LemonBird-Regular';
+    
+}
+.section_three h3::after{
+     display: block;
+    content: '';
+    padding-right:10px; 
+    border-bottom:3px solid #8e7a6c;
+}
+.menu_text h3::after {
+    width:88%;
+}
+.shop_text h3::after {
+    width:80%;
+}
+.section_three h3:hover {  
+    color: #9DA571;
+}
+.green{
+    position: relative;
+    border: 7px solid #9DA571;
+    display: inline-block;
+    width: 45%;
+    height: 80%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+.deco_one{
+    position: absolute;
+    right:96%;
+    top:15%;
+}
+.deco_two{
+    position: absolute;
+    right:96%;
+    top:30%;
+}
+.deco_three{
+    position: absolute;
+    left: 96%;
+    bottom:30%;
+}
+.deco_four{
+    position: absolute;
+    left: 96%;
+    bottom:15%;
+}

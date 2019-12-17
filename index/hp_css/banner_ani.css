@@ -1,0 +1,91 @@
+.backgroundImage{
+    padding-top:3%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 52%;
+}
+.backgroundImage img{
+    width: 100%;
+}
+
+.backgroundImage>.img1 {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    animation: aaa 12s linear infinite alternate;
+}
+
+@keyframes aaa {
+    0% {
+        opacity: 1;
+    }
+    16.7% {
+        opacity: 1;
+    }
+    33.3% {
+        opacity: 0;
+    }
+    66.7% {
+        opacity: 0;
+    }
+    83.3% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.backgroundImage>.img2 {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    animation: bbb 12s linear infinite alternate;
+}
+@keyframes bbb {
+    0% {
+        opacity: 0;
+    }
+    16.7% {
+        opacity: 0;
+    }
+    33.3% {
+        opacity: 1;
+    }
+    66.7% {
+        opacity: 1;
+    }
+    83.3% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.backgroundImage>.img3 {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    animation: ccc 12s linear infinite alternate;
+}
+@keyframes ccc {
+    0% {
+        opacity: 0;
+    }
+    16.7% {
+        opacity: 0;
+    }
+    33.3% {
+        opacity: 0;
+    }
+    66.7% {
+        opacity: 0;
+    }
+    83.3% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

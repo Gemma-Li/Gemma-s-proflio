@@ -1,0 +1,73 @@
+@import "./../../layout/layout_header.css";
+@import "./../../layout/wow_anime.css";
+@import "./../../index/hp_css/banner_ani.css";
+@import "./hp_main.css";
+@import "./hp_main_one.css";
+@import "./hp_footer.css";
+@import "./hp_rwd.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .bg {
+    width: 100%;
+    min-height: 100vh;
+    border: 1.5vw solid #9da571;
+    overflow: hidden;
+  }
+  
+  body {
+    font-family: 'MYuenHK-Medium';
+  }
+  
+  @font-face {
+    font-family: 'MYuenHK-Medium';
+    src: url('../../font/MYuenHK-Medium.otf');
+  }
+  
+  @font-face {
+    font-family: 'LemonBird-Regular';
+    src: url('../../font/LemonBird-Regular.otf');
+  }
+  
+  p {
+    /* color: #8e7a6c; */ 
+    font-size: 16px;
+    letter-spacing: 8px;
+  }
+  
+  h3 {
+    display: block;
+    font-size: 30px;
+    letter-spacing: 15px;
+    line-height: 75px;
+    font-family: 'LemonBird-Regular';
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  
+  h4 {
+    color: #8e7a6c;
+    font-size: 13px;
+    font-family: 'MYuenHK-Medium';
+    letter-spacing: 8px;
+  }
+  
+  span {
+    color: #8e7a6c;
+    font-size: 15px;
+    letter-spacing: 8px;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #9da571;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #8e7a6c;
+  }
+  

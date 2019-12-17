@@ -1,0 +1,122 @@
+main {
+    width: 100%;
+}
+
+
+h3 {
+    color: #868773;
+}
+
+.aboutus_one {
+    display: flex;
+    /* border: 1px solid rgb(19, 194, 63); */
+    justify-content: space-around;
+    /* min-width: 100%; */
+    width: 100%;
+    margin:0 10% 8% 10%;
+}
+
+.aboutus_one span {
+    flex:none;
+    color: #868773;
+    /* border: 1px solid rgb(19, 194, 63); */
+    width: 50%;
+    margin:0 20% 0% 10%;
+}
+.aboutus_one img{
+    flex:none;
+    /* border: 1px solid rgb(63, 68, 64); */
+    margin:0 0% 0% 18%;
+   
+}
+
+.about_picc {
+    background-image: url(./../about_img/abtwo_.jpg);
+    height: 100%;
+    padding-top: 35%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    background-position: center;
+}
+
+.aboutus_two span {
+    display: block;
+    text-align: center;
+}
+
+.deco_one {
+    display: inline-block;
+    padding: 10% 0 5% 70%;
+}
+
+.deco_two {
+    display: inline-block;
+    padding: 5% 0 0% 18%;
+}
+.aboutus_three{
+    display: flex;
+    width: 80%;
+
+}
+.aboutus_three_1{
+    margin: 20% 0 0 26%;
+}
+.aboutus_three span{
+    writing-mode: vertical-lr;
+    padding: 30% 5% 0 5%;
+}
+
+@media screen and (max-width:1440px) {
+    .aboutus_three_1{
+        margin: 15% 0 0 15%;
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+    .aboutus_one{
+        width: 100%;
+        display: inline-block;
+        margin: 0;
+    }
+   .aboutus_one  span,.aboutus_one img{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 5%;
+   }
+   .deco_one{
+    padding: 10% 0 5% 60%;
+   }
+   .deco_two {
+    padding: 2% 0 0 10%;
+}
+.aboutus_three_1{
+    margin: 15% 0 0 0%;
+}
+   
+}
+
+@media screen and (max-width:789px) {
+    .about_picc{
+        background-attachment: unset;
+    }
+    .aboutus_three_1{
+        margin: 10% 0 0 0%;
+       
+    }
+    .aboutus_three_1 img{
+         width: 150%;
+    }
+    .aboutus_three_2{
+        display: none;
+    }
+   
+    .aboutus_three span{
+        padding: 30% 5% 0 30%;
+    }
+}
+
+

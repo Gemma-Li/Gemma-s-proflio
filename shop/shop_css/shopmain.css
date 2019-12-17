@@ -1,0 +1,131 @@
+main {
+    width: 100%;
+}
+
+h3 {
+    color: #868773;
+}
+
+.cart_,
+.cart_2 {
+    color: #8e7a6c;
+    font-size: 15px;
+    letter-spacing: 8px;
+    padding: 2% 0% 0 0%;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+main a span:hover {
+    text-decoration: none;
+    color: #9DA571;
+}
+
+main h2::after{
+    display: block;
+    content: '';
+    border-bottom: 2px solid #8e7a6c;
+    width: 5%;
+}
+/* main .shop_pr_aita .all_txt_2 h2::after {
+    display: block;
+    content: '';
+    border-bottom: 1.5px solid #8e7a6c;
+    width: 5%;
+} */
+.shop_pr_top {
+    position: relative;
+    padding: 0 0 10% 12%;
+    margin-bottom: 12%;
+    z-index: 0;
+    height: 400px;
+}
+
+.bgborder {
+    position: absolute;
+}
+
+.bgborder_2,
+.bgborder {
+    border: 15px solid rgb(134, 135, 115, 0.7);
+    width: 10%;
+    padding: 12% 4%;
+    z-index: -10;
+}
+
+.item_pic {
+    position: absolute;
+    z-index: 0;
+    top: 20%;
+    right: 62%;
+}
+
+.shop_pr_deco {
+    position: absolute;
+    z-index: 3;
+    top: -15%;
+    left: 108%;
+}
+
+.all_txt {
+    position: absolute;
+    z-index: 0;
+    bottom: -20%;
+    right: 43%;
+    background-color: rgb(211, 192, 172, 0.8);
+    width: 20%;
+    padding: 3% 2% 3% 1%;
+}
+
+
+.shop_pr_aita {
+    position: relative;
+    padding: 0 0 10% 12%;
+    margin-bottom: 12%;
+    z-index: 0;
+    height: 400px;
+}
+
+.shop_pr_deco2 {
+    position: absolute;
+    z-index: 3;
+    top: 42%;
+    left: 37%;
+}
+
+.all_txt_2 {
+    position: absolute;
+    z-index: 3;
+    bottom: -20%;
+    right: 36%;
+    background-color: rgb(211, 192, 172, 0.8);
+    width: 20%;
+    padding: 3% 2% 3% 1%;
+}
+
+.item_pic_2 {
+    position: absolute;
+    z-index: 0;
+    top: 18%;
+    right: 16%;
+    z-index: 1;
+}
+
+.bgborder_2 {
+    position: absolute;
+    right: 12%;
+    z-index: -6;
+}
+
+main a  img:hover{
+    transition: all 0.8s;
+}
+
+main a  img:hover{
+    filter: brightness(0.6);
+
+}
+ 

@@ -1,0 +1,250 @@
+header {
+    width: 100%;
+    /* border: solid 1px rgb(23, 63, 148); */
+    font-size: 0;
+}
+
+.header_a {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+}
+
+.header_b {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    margin-top: 8%;
+    z-index: 9999;
+}
+
+.header_b .navv {
+    display: block;
+    /* border: solid 1px #333; */
+}
+
+.header_a>.deco_cd {
+    /* border: 1px solid rgb(114, 15, 15); */
+    padding-top: 27%;
+    color: #868773;
+    opacity: 0.5;
+    font-size: 25px;
+    letter-spacing: 10px;
+    line-height: 40px;
+    font-family: 'LemonBird-Regular';
+}
+
+.header_a>.sociall {
+    /* border: 1px solid #6b7042; */
+    top: 55%;
+    line-height: 50px;
+    position: fixed;
+}
+
+.social {
+    /* top:90%; */
+    /* margin-bottom:30%; */
+    display: inline-flex;
+}
+
+.social a img {
+    padding: 0% 30% 0 30%;
+}
+
+.nav,
+.navv {
+    display: block;
+    font-family: 'LemonBird-Regular';
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(211, 192, 172, 0.9);
+    z-index: 999;
+    right: -130%;
+}
+
+.nav.active {
+    right: 0%;
+}
+
+.navbar {
+    margin-top: 15%;
+    margin-left: 8%;
+}
+
+.nav h2,
+.navv h2 {
+    color: #8e7a6c;
+    font-size: 31px;
+    letter-spacing: 15px;
+    line-height: 60px;
+    /* font-family: 'LemonBird-Regular'; */
+    margin: 0 30px 5px 0px;
+}
+
+.nav h2 {
+    line-height: 30px;
+    padding-bottom: 7%;
+}
+
+.navv {
+    position: static;
+    right: 0%;
+    background-color: #fff;
+    width: auto;
+    height: auto;
+}
+
+.navv .navbar {
+    margin: 0%;
+    display: flex;
+}
+
+.banner img {
+    padding-top: 3%;
+    width: 100%;
+}
+
+.banner_ img {
+    width: 100%;
+}
+
+.news {
+    color: #8e7a6c;
+    font-size: 14px;
+    font-family: 'MYuenHK-Medium';
+    letter-spacing: 6px;
+    margin: 2% 0% 20% 0;
+    text-decoration: underline;
+}
+
+.news a {
+    color: #8e7a6c;
+}
+
+.news:hover {
+    color: #9DA571;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #8e7a6c;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: #9DA571;
+}
+
+
+/*hamebager*/
+
+a {
+    text-decoration: none;
+}
+
+.row .three {
+    padding: 80px 30px;
+    box-sizing: border-box;
+    background-color: #4c5258;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+.hamburger .line {
+    width: 40px;
+    height: 3px;
+    background-color: #8e7a6c;
+    display: block;
+    margin: 10px auto;
+    transition: all 0.6s ease-in-out;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+#hamburger-11 {
+    transition: all 0.6s ease-in-out;
+}
+
+#hamburger-11.is-active {
+    animation: smallbig 0.6s forwards;
+}
+
+@keyframes smallbig {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0);
+    }
+}
+
+#hamburger-11.is-active .line:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger-11.is-active .line:nth-child(1) {
+    transform: translateY(13px) rotate(45deg);
+}
+
+#hamburger-11.is-active .line:nth-child(3) {
+    transform: translateY(-13px) rotate(-45deg);
+}
+
+#hamburger-11.is-active .line:nth-child(1),
+#hamburger-11.is-active .line:nth-child(2),
+#hamburger-11.is-active .line:nth-child(3) {
+    transition-delay: 0.4s;
+}
+
+
+/* header RWD */
+
+@media screen and (min-width: 891px) {
+    #hamburger-11 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .deco_cd,
+    .sociall {
+        display: none;
+    }
+    .header_b .navv {
+        display: none;
+    }
+    .header_a img {
+        display: block;
+        margin: 0 auto;
+    }
+    .logo {
+        top: 3%;
+        width: 80%;
+    }
+    .three .hamburger {
+        position: fixed;
+        /* left:79%; */
+        right: 10%;
+        top: 8%;
+        /* z-index:1; */
+    }
+    .three.col {
+        z-index: 1000;
+        position: fixed;
+    }
+    .header_b {
+        display: inline-block;
+        min-width: 100%;
+    }
+    .news p {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+}

@@ -1,0 +1,82 @@
+main {
+    width: 100%;
+    /* border: solid 1px rgb(23, 63, 148); */
+    font-size: 0;
+}
+.one_one{
+    position: relative;
+}
+.pic_one{
+    position: absolute;
+    box-shadow:20px 24px 0px rgb(142, 122, 108,0.8);
+}
+.pic_two{
+    position: absolute;
+    top: 15%;
+}
+.img_two{
+    position: absolute;
+    z-index: -1;
+    right:30%;
+    bottom:2%
+}
+.brown_senn {
+    border: 7px solid #8e7a6c;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    height: 80%;
+    margin-left:15%;
+    padding: 70px 0 26% 0%;
+}
+.main_about {
+    position: absolute;
+    color: #8e7a6c;
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 15px;
+    z-index: 30;
+    font-family: 'LemonBird-Regular';
+    top:15%;
+    padding-left:30%;
+}
+.main_about::after {
+    display: block;
+    content: '';
+    margin-left:2px;
+    margin-bottom:10px;
+    border-bottom:3px solid #8e7a6c;
+    width:130px;
+   
+}
+.main_about:hover {  
+    color: #9DA571;
+}
+
+.main_word {
+    color: #868773;
+    line-height: 42px;
+    margin-bottom: 10%;
+    text-align: left;
+    position: absolute;
+    top:35%;
+    padding-left: 30%;
+}
+
+/* slowly & relaxing*/
+.section_two{
+   margin-top:8%;
+}
+.se_top{
+    display: flex;
+    justify-content: flex-end;
+}
+.se__word{
+    text-align: center;
+    color: #868773;
+}
+.se_aita{
+    display: flex;
+    justify-content: space-around;
+    padding-top:4%;
+}

@@ -1,0 +1,67 @@
+main {
+    /* border: 1px solid sandybrown; */
+    font-size: 0px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #868773;
+}
+.maru_{
+    width:100%;
+    display: inline-flex;
+     /* border: 1px solid rgb(41, 29, 29); */
+     justify-content: space-around;
+     width: 70%;
+     margin: 0 15%;
+}
+.maru_two{
+    padding-top: 10%;
+}
+.maru_three{
+    padding-top: 20%;
+}
+
+main .maru_ p{
+   padding:8% 0% 0% 20%;
+    color: #868773;
+}
+
+ .circle{
+    position: absolute;
+right: 18%;
+z-index: -1;
+    
+}
+.circle_{
+    position: absolute;
+    /* border: 1px solid rgb(131, 58, 58); */
+    right:70%;
+    padding-top:15%;
+    z-index: -1;
+   
+} 
+
+/* .slideUp:hover{
+	animation-name: slideUp;
+	animation-duration:5s;	
+	animation-timing-function: ease-in-out;	
+    visibility: visible ;	
+    animation-delay:0.1s;
+
+}
+
+@keyframes slideUp{
+	0% {
+		transform: translateY(30%);
+    }
+	50%{
+		transform: translateY(-1%);
+	}
+	40%{
+		transform: translateY(-2%);
+    }
+    
+	
+} */

@@ -1,0 +1,43 @@
+@media screen and (max-width:1100px){
+    .menu_deco_2{
+        display: none;
+    }
+}
+@media screen and (max-width:900px){
+    .menu_picc img{
+        display: none;
+    }
+    .container{
+        margin-bottom:80%;
+    }
+}
+
+@media screen and (max-width:650px){
+    .maru_{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .maru_ img{
+       width:100%;
+    }
+    .circle img,.circle_ img{
+        display: none;
+    }
+    .container{
+        margin-bottom:100%;
+    }
+}
+@media screen and (max-width:415px){
+    .container{
+        margin-bottom:115%;
+    }
+    .tab-lable {
+        font-size: 30px;
+        width:20%
+    }
+    .cofe_name {
+      /* margin-left: 1%;
+      margin-right:1%; */
+      margin: 0;
+    }
+}

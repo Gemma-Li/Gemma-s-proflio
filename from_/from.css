@@ -1,0 +1,106 @@
+@import "./../layout/layout_all.css";
+
+.footer_contact_box {
+	width: 100%;
+}
+
+.footer_contact_txt {
+	width: 100%;
+}
+
+.contact_info_group {
+	margin: 0 auto;	
+}
+
+.table_color {
+	background-color: rgb(211, 192, 172,0.8);	
+}
+
+.contact_group {
+	padding-top: 2%;
+}
+
+.contact_group_box {
+	width: 90%;
+	margin: auto;
+	color: #868773;;
+}
+
+.contact_group_box td{
+    padding: 10px 0;
+}
+
+.contact_group_box input {
+    width: 100%;
+    height: 2rem;
+    border-color: rgb(211, 192, 172);
+    border-top-width: 0px;
+    border-right-width: 0px; 
+    border-bottom-width: 2px;
+	border-left-width: 0px;
+    background-color: #8e7a6c;
+    opacity:.6; 	
+}
+#guestMsg{
+    background-color: #8e7a6c;
+    opacity:.6; 
+}
+
+.contact_group_box textarea {
+    width: 99%;
+    border-color: #8e7a6c;
+}
+
+#submit_button{
+	width: 40%;
+	border-width: 3px;
+	color: #8e7a6c;
+	border: 1px solid #8e7a6c;
+	background-color: #fffeee;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: 'MYuenHK-Medium';
+    letter-spacing: 8px;
+}
+#submit_button:hover{
+    background-color:  #9da571;
+    color: #fffeee;
+}
+.go_back {
+    font-size: 10px;
+    letter-spacing: 7px;
+    padding: 3% 0 0 3%;
+}
+/* ======footer====== */
+@media screen and (min-width: 992px){
+	.footer_contact_group {
+		width: 85%;
+		float: right;
+	}
+
+	.footer_contact_box {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.footer_contact_txt {
+		width: 45%;
+		align-self: center;
+ 	}
+}
+/* ======footer====== */
+@media screen and (min-width: 992px){
+	.footer_contact_group {
+		width: 85%;
+		float: right;
+	}
+
+	.footer_contact_box {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.footer_contact_txt {
+		width: 45%;
+		align-self: center;
+ 	}
+}
